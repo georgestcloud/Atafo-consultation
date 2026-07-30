@@ -44,6 +44,11 @@ h3{color:var(--gold)}
     .navbar-brand{
         margin-left:-12px !important;
     }
+    .logo-img{
+    width:150px;
+    height:60px;
+   
+}
 
 }
 
