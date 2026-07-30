@@ -1,15 +1,41 @@
 :root{--gold:#C6A66A;--dark:#111;--bg:#F7F5F0;}
 body{background:var(--bg);}
+
+
 .hero{
-    background: linear-gradient(135deg,#111,#333);
-    color: #fff;
-    padding: 20px 0;
-   
+    position:relative;
+    height:300px;
+    overflow:hidden;
 }
+
+.hero-bg{
+    position:absolute;
+    inset:-30px;
+    background:url("but.webp") center/cover no-repeat;
+    transition:transform .15s ease-out;
+    will-change:transform;
+}
+
+.hero-overlay{
+    position:relative;
+    z-index:2;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:rgba(0,0,0,.45);
+}
+
+
+
 .nav-link{color:#111}.nav-link:hover{color:var(--gold)}
 .card{border-radius:18px}
 h3{color:var(--gold)}
-.form-control:focus{border-color:var(--gold);box-shadow:0 0 0 .2rem rgba(198,166,106,.25)}
+
+
+.form-control{
+    border: 1px solid #C96C31;
+}
 
 .atafo-navbar{
     min-height:90px;
@@ -34,6 +60,22 @@ h3{color:var(--gold)}
     margin:0 !important;
 }
 
+
+.hero h1,
+.hero .lead{
+    color: #fff;
+}
+.hero h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.hero p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+}
+
 @media (max-width:800px){
 
     .atafo-navbar .container-fluid{
@@ -44,15 +86,11 @@ h3{color:var(--gold)}
     .navbar-brand{
         margin-left:-12px !important;
     }
-   .logo-img{
+
+    .logo-img{
         width:130px !important;
         height:auto !important;
-}
-
-}
-
-
-@media (max-width:800px){
+    }
 
     .navbar-toggler{
         margin-right:30px;
@@ -63,7 +101,6 @@ h3{color:var(--gold)}
     }
 
 }
-
 
 .menu-icon{
     color:#C96C31;
