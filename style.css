@@ -100,6 +100,9 @@ h3{color:var(--gold)}
         padding-left:15px;
     }
 
+       .hero .lead{
+        font-size: 0.9rem;
+    }
 }
 
 .menu-icon{
@@ -114,4 +117,8 @@ h3{color:var(--gold)}
 .navbar-toggler:focus{
     box-shadow:none;
 }
+
+
+
+
 
