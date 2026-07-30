@@ -28,7 +28,21 @@ body{background:var(--bg);}
 
 
 
-.nav-link{color:#111}.nav-link:hover{color:var(--gold)}
+.nav-link{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.05rem;
+    font-weight: 600;
+    letter-spacing: .4px;
+    text-transform: uppercase;
+    color: #111;
+    transition: .3s;
+}
+
+.nav-link:hover{
+    color:var(--gold);
+}
+
+
 .card{border-radius:18px}
 h3{color:var(--gold)}
 
@@ -308,4 +322,11 @@ h3{color:var(--gold)}
         justify-content:center;
     }
 
+}
+
+
+@media (min-width:801px){
+    .navbar-nav .nav-item{
+        margin-left:30px;
+    }
 }
