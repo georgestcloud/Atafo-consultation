@@ -19,7 +19,7 @@
 <nav class="navbar navbar-expand-lg bg-white shadow-sm atafo-navbar">
 <div class="container-fluid">
 
-<a class="navbar-brand" href="#">
+<a class="navbar-brand" href="index.html">
     <img src="logo.png" class="logo-img">
 </a>
 
@@ -35,7 +35,7 @@
 
 <div class="collapse navbar-collapse" id="nav">
 <ul class="navbar-nav ms-auto me-5 fw-semibold">
-<li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
 <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
 <li class="nav-item"><a class="nav-link" href="#">Book a Session</a></li>
 </ul>
@@ -43,6 +43,8 @@
 
 </div>
 </nav>
+
+
 
 <header class="hero text-center">
     <div class="hero-bg"></div>
@@ -56,63 +58,146 @@
             </p>
         </div>
     </div>
-</header>
-
-<div class="container my-5">
+</header><div class="container my-5">
 <div class="card shadow border-0 rounded-4 p-4">
 <h3 class="mb-4">Order Information</h3>
+
 <div class="row g-3">
-<div class="col-md-6"><label class="form-label">ORDER NUMBER</label><input class="form-control"></div>
-<div class="col-md-6"><label class="form-label">DATE</label><input type="date" class="form-control"></div>
-<div class="col-md-6"><label class="form-label">NAME</label><input class="form-control"></div>
-<div class="col-md-6"><label class="form-label">EMAIL</label><input type="email" class="form-control"></div>
-<div class="col-md-6"><label class="form-label">TELEPHONE</label><input class="form-control"></div>
-<div class="col-md-3"><label class="form-label">HEIGHT</label><input class="form-control"></div>
-<div class="col-md-3"><label class="form-label">DUE DATE</label><input type="date" class="form-control"></div>
+
+<div class="col-md-6">
+<label class="form-label">ORDER NUMBER</label>
+<input id="orderNumber" class="form-control">
+</div>
+
+<div class="col-md-6">
+<label class="form-label">DATE</label>
+<input id="date" type="date" class="form-control">
+</div>
+
+<div class="col-md-6">
+<label class="form-label">NAME</label>
+<input id="customerName" class="form-control">
+</div>
+
+<div class="col-md-6">
+<label class="form-label">EMAIL</label>
+<input id="email" type="email" class="form-control">
+</div>
+
+<div class="col-md-6">
+<label class="form-label">TELEPHONE</label>
+<input id="telephone" class="form-control">
+</div>
+
+<div class="col-md-3">
+<label class="form-label">HEIGHT</label>
+<input id="height" class="form-control">
+</div>
+
+<div class="col-md-3">
+<label class="form-label">DUE DATE</label>
+<input id="dueDate" type="date" class="form-control">
+</div>
+
+<div class="col-md-4">
+<label class="form-label">CONSULTANT</label>
+<input id="consultant" class="form-control">
+</div>
+
+<div class="col-md-4">
+<label class="form-label">SHOE SIZE</label>
+<input id="shoeSize" class="form-control">
+</div>
+
+<div class="col-md-4">
+<label class="form-label">MEASURED BY</label>
+<input id="measuredBy" class="form-control">
+</div>
+
 </div>
 </div>
 
 <div class="card shadow border-0 rounded-4 p-4 mt-4">
 <h3><i class="bi bi-rulers"></i> Measurements</h3>
+
 <div class="row g-3">
-<div class="col-md-4"><label class="form-label">Front Length</label><input class="form-control"></div>
-<div class="col-md-4"><label class="form-label">Back Length</label><input class="form-control"></div>
-<div class="col-md-4"><label class="form-label">Button Point</label><input class="form-control"></div>
-<div class="col-md-4"><label class="form-label">Shoulder</label><input class="form-control"></div>
-<div class="col-md-4"><label class="form-label">Neck</label><input class="form-control"></div>
-<div class="col-md-4"><label class="form-label">Chest</label><input class="form-control"></div>
-<div class="col-md-4"><label class="form-label">Upper Tummy</label><input class="form-control"></div>
-<div class="col-md-4"><label class="form-label">Tummy</label><input class="form-control"></div>
-<div class="col-md-4"><label class="form-label">Waist</label><input class="form-control"></div>
-<div class="col-md-4"><label class="form-label">Seat</label><input class="form-control"></div>
-<div class="col-md-4"><label class="form-label">Left Sleeve</label><input class="form-control"></div>
-<div class="col-md-4"><label class="form-label">Right Sleeve</label><input class="form-control"></div>
-<div class="col-md-4"><label class="form-label">Biceps</label><input class="form-control"></div>
-<div class="col-md-4"><label class="form-label">Forearm</label><input class="form-control"></div>
-<div class="col-md-4"><label class="form-label">Cuff</label><input class="form-control"></div>
-<div class="col-md-4"><label class="form-label">Trouser Waist</label><input class="form-control"></div>
-<div class="col-md-4"><label class="form-label">Hip</label><input class="form-control"></div>
-<div class="col-md-4"><label class="form-label">Thigh</label><input class="form-control"></div>
-<div class="col-md-4"><label class="form-label">Knee</label><input class="form-control"></div>
-<div class="col-md-4"><label class="form-label">Bottom</label><input class="form-control"></div>
-<div class="col-md-4"><label class="form-label">Inseam</label><input class="form-control"></div>
-<div class="col-md-4"><label class="form-label">Outseam</label><input class="form-control"></div>
-<div class="col-md-4"><label class="form-label">Short Length</label><input class="form-control"></div>
-<div class="col-md-4"><label class="form-label">Mid Length</label><input class="form-control"></div>
-<div class="col-md-4"><label class="form-label">Above Knee</label><input class="form-control"></div>
-<div class="col-md-4"><label class="form-label">Knee Length</label><input class="form-control"></div>
-<div class="col-md-4"><label class="form-label">Sleeve Length</label><input class="form-control"></div>
-<div class="col-md-4"><label class="form-label">Belly</label><input class="form-control"></div>
-<div class="col-md-4"><label class="form-label">Stomach</label><input class="form-control"></div>
 
-</div></div></div>
+<div class="col-md-4"><label class="form-label">Front Length</label><input id="frontLength" class="form-control"></div>
 
+<div class="col-md-4"><label class="form-label">Back Length</label><input id="backLength" class="form-control"></div>
 
+<div class="col-md-4"><label class="form-label">Button Point</label><input id="buttonPoint" class="form-control"></div>
 
+<div class="col-md-4"><label class="form-label">Shoulder</label><input id="shoulder" class="form-control"></div>
 
-<a href="sheet4.html" class="btn btn-dark rounded-circle position-fixed bottom-0 end-0 m-4" style="width:60px;height:60px;display:flex;align-items:center;justify-content:center;">
+<div class="col-md-4"><label class="form-label">Neck</label><input id="neck" class="form-control"></div>
 
-<i class="bi bi-arrow-right"></i>
+<div class="col-md-4"><label class="form-label">Chest</label><input id="chest" class="form-control"></div>
+
+<div class="col-md-4"><label class="form-label">Upper Tummy</label><input id="upperTummy" class="form-control"></div>
+
+<div class="col-md-4"><label class="form-label">Tummy</label><input id="tummy" class="form-control"></div>
+
+<div class="col-md-4"><label class="form-label">Waist</label><input id="waist" class="form-control"></div>
+
+<div class="col-md-4"><label class="form-label">Seat</label><input id="seat" class="form-control"></div>
+
+<div class="col-md-4"><label class="form-label">Left Sleeve</label><input id="leftSleeve" class="form-control"></div>
+
+<div class="col-md-4"><label class="form-label">Right Sleeve</label><input id="rightSleeve" class="form-control"></div>
+
+<div class="col-md-4"><label class="form-label">Biceps</label><input id="biceps" class="form-control"></div>
+
+<div class="col-md-4"><label class="form-label">Forearm</label><input id="forearm" class="form-control"></div>
+
+<div class="col-md-4"><label class="form-label">Cuff</label><input id="cuff" class="form-control"></div>
+
+<div class="col-md-4"><label class="form-label">Trouser Waist</label><input id="trouserWaist" class="form-control"></div>
+
+<div class="col-md-4"><label class="form-label">Hip</label><input id="hip" class="form-control"></div>
+
+<div class="col-md-4"><label class="form-label">Thigh</label><input id="thigh" class="form-control"></div>
+
+<div class="col-md-4"><label class="form-label">Knee</label><input id="knee" class="form-control"></div>
+
+<div class="col-md-4"><label class="form-label">Bottom</label><input id="bottom" class="form-control"></div>
+
+<div class="col-md-4"><label class="form-label">Inseam</label><input id="inseam" class="form-control"></div>
+
+<div class="col-md-4"><label class="form-label">Outseam</label><input id="outseam" class="form-control"></div>
+
+<div class="col-md-4"><label class="form-label">Short Length</label><input id="shortLength" class="form-control"></div>
+
+<div class="col-md-4"><label class="form-label">Mid Length</label><input id="midLength" class="form-control"></div>
+
+<div class="col-md-4"><label class="form-label">Above Knee</label><input id="aboveKnee" class="form-control"></div>
+
+<div class="col-md-4"><label class="form-label">Knee Length</label><input id="kneeLength" class="form-control"></div>
+
+<div class="col-md-4"><label class="form-label">Sleeve Length</label><input id="sleeveLength" class="form-control"></div>
+
+<div class="col-md-4"><label class="form-label">Belly</label><input id="belly" class="form-control"></div>
+
+<div class="col-md-4"><label class="form-label">Stomach</label><input id="stomach" class="form-control"></div>
+
+</div>
+
+<div class="d-flex justify-content-end mt-5">
+    <a href="form.html" class="next-btn">
+        Next
+        <i class="bi bi-arrow-right"></i>
+    </a>
+</div>
+
+</div>
+</div>
+<a href="form.html"
+   id="nextPage"
+   class="btn btn-dark rounded-circle position-fixed bottom-0 end-0 m-4"
+   style="width:60px;height:60px;display:flex;align-items:center;justify-content:center;">
+
+    <i class="bi bi-arrow-right"></i>
+
 </a>
 
 
@@ -204,6 +289,54 @@
         </div>
     </div>
 </footer>
+
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+    const fields = document.querySelectorAll("input, select, textarea");
+
+    // Restore saved values
+    fields.forEach(field => {
+        if (!field.id) return;
+
+        const savedValue = sessionStorage.getItem(field.id);
+
+        if (savedValue !== null) {
+            field.value = savedValue;
+        }
+    });
+
+    // Save whenever a field changes
+    fields.forEach(field => {
+        if (!field.id) return;
+
+        const saveField = () => {
+            sessionStorage.setItem(field.id, field.value);
+        };
+
+        field.addEventListener("input", saveField);
+        field.addEventListener("change", saveField);
+    });
+
+});
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
