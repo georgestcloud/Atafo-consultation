@@ -452,24 +452,132 @@
 </div>
 </div>
 
-<div class="d-flex justify-content-end mt-5">
-    <a href="form.html" class="next-btn">
-        Next
-        <i class="bi bi-arrow-right"></i>
-    </a>
-</div>
+
 
 </div>
 </div>
 
-<a href="sheet4.html"
-   id="nextPage"
-   class="btn btn-dark rounded-circle position-fixed bottom-0 end-0 m-4"
-   style="width:60px;height:60px;display:flex;align-items:center;justify-content:center;">
 
-    <i class="bi bi-arrow-right"></i>
+<div class="container my-5">
 
-</a>
+    <div class="card p-4 mb-4">
+
+        <h3><i class="bi bi-person-lines-fill"></i> Shirt Details</h3>
+
+        <div class="row g-3">
+
+            <!-- Shirt Fabric -->
+            <div class="col-md-4">
+                <label class="form-label">SHIRT FABRIC</label>
+                <input id="shirtFabric" class="form-control">
+            </div>
+
+            <!-- Button -->
+            <div class="col-md-4">
+                <label class="form-label">BUTTON</label>
+                <input id="shirtButton" class="form-control">
+            </div>
+
+            <!-- Front Style -->
+            <div class="col-md-4">
+                <label class="form-label">FRONT STYLE</label>
+                <select id="frontStyle" class="form-select">
+                    <option value="">Select</option>
+                    <option>Normal</option>
+                    <option>Plain Bib</option>
+                    <option>Pleated Bib</option>
+                </select>
+            </div>
+
+            <!-- Collar -->
+            <div class="col-md-4">
+                <label class="form-label">COLLAR</label>
+                <select id="collar" class="form-select">
+                    <option value="">Select</option>
+                    <option>Classic</option>
+                    <option>Spread</option>
+                    <option>Cutaway</option>
+                    <option>Button Down</option>
+                    <option>Wing</option>
+                    <option>Mandarin</option>
+                </select>
+            </div>
+
+            <!-- Placket -->
+            <div class="col-md-4">
+                <label class="form-label">PLACKET</label>
+                <select id="placket" class="form-select">
+                    <option value="">Select</option>
+                    <option>Placket</option>
+                    <option>No Placket</option>
+                    <option>Concealed</option>
+                </select>
+            </div>
+
+            <!-- Cuff -->
+            <div class="col-md-4">
+                <label class="form-label">CUFF</label>
+                <select id="cuffType" class="form-select">
+                    <option value="">Select</option>
+                    <option>Button</option>
+                    <option>Double</option>
+                </select>
+            </div>
+
+            <!-- Contrast -->
+            <div class="col-md-4">
+                <label class="form-label">CONTRAST</label>
+                <select id="contrast" class="form-select">
+                    <option value="">Select</option>
+                    <option>Inner Collar</option>
+                    <option>Collar</option>
+                    <option>Collar &amp; Cuff</option>
+                </select>
+            </div>
+
+            <!-- Monogram -->
+            <div class="col-md-4">
+                <label class="form-label">MONOGRAM</label>
+                <input id="shirtMonogram" maxlength="5" class="form-control">
+            </div>
+
+            <!-- Monogram Position -->
+            <div class="col-md-4">
+                <label class="form-label">MONOGRAM POSITION</label>
+                <select id="monogramPosition" class="form-select">
+                    <option value="">Select</option>
+                    <option>Cuff</option>
+                    <option>Tummy</option>
+                </select>
+            </div>
+
+            <!-- Additional Info -->
+            <div class="col-md-12">
+                <label class="form-label">ADDITIONAL INFO</label>
+                <textarea id="shirtAdditionalInfo"
+                          rows="4"
+                          class="form-control"></textarea>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Next Button -->
+    <div class="text-end">
+
+        <a href="summary.html"
+           class="btn px-4 py-3 rounded-pill next-btn">
+            Finish
+            <i class="bi bi-arrow-right-circle-fill ms-2"></i>
+        </a>
+
+    </div>
+
+</div>
+
+
+
 
 
 
